@@ -55,7 +55,8 @@ color: white;
     color: white;
     font-size: 18px;
     margin: 2% 0;
-    font-weight: bold;
+    border: none;
+    /* font-weight: bold; */
 }
 
 .welcome h4 {
@@ -109,7 +110,7 @@ color: white;
     color: white;
     font-size: 18px;
     margin: 2% 0;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: none;
 }
 
@@ -131,8 +132,7 @@ color: white;
     margin: 1% 37%;
     border: 2px solid orange;
     width:30%;
-    
-    
+    font-size: 15px;
 }
 .about p{
     margin: 0 7%;
@@ -199,7 +199,8 @@ border-radius:40px ;
   .abt_border{
       border-bottom: 2px solid;
       padding: 4px 0;
-  }
+      font-size: 15px;
+      }
   .welcome h1 {
     width: 36%;
     overflow: hidden; 
