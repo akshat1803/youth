@@ -203,7 +203,7 @@ border-radius:40px ;
       font-size: 15px;
       }
   .welcome h1 {
-    width: 36%;
+    width: 447px;
     overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: nowrap;
@@ -215,7 +215,7 @@ border-radius:40px ;
   }
   @keyframes typing {
     from { width: 0 }
-    to { width: 36% }
+    to { width:447px}
   }
   @keyframes blink-caret {
     from, to { border-color: transparent }
@@ -419,4 +419,7 @@ position: absolute;
 }
 .footer_part{
     margin-top: 3%;
+}
+.sem{
+    display: none;
 }
