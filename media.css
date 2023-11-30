@@ -1,4 +1,4 @@
-@media screen and (min-width:770px) and (max-width:890px){
+/* @media screen and (min-width:770px) and (max-width:890px){
   
   .sem{
     display: block;
@@ -113,13 +113,13 @@
       padding: unset;
       margin: unset;
   }
-}
-/* @media screen and (min-width:770px) and (max-width:1000px){
-  .sem{
-    display: block;
-  }
+} */
+@media screen and (min-width:770px) and (max-width:1000px){
+ .sem{
+  display: block;
+ }
 .wellfare{
-  display: none;
+  /* display: none; */
 }
 .welcome h1 {
   width: ;
@@ -129,11 +129,209 @@
 }
 @keyframes typing {
   from { width: 0 }
-  to { width:  }
+  to { width: 50px }
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 
 }
+.bigvideo{
+  height: 200%;
+}
+}
+@media screen and (min-width:320PX) and (max-width:770PX){
+.sem{
+  display: block;
+}
+.wellfare{
+  display: none;
+}
+.welcome h4{
+  font-size: 16px;
+}
+.welcome h1 {
+font-size:25px;
+  width:300px ;
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width:300px }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+
+}
+
+/* .navbar {
+  display: none !important;
 } */
+
+.bgvideo {
+  height: unset !important;
+}
+
+.desk {
+
+  flex-direction: column-reverse;
+  align-items: center !important;
+  text-align: center !important;
+  margin-top: 24%;
+}
+
+.dash {
+  margin: auto !important;
+}
+
+.ball img {
+
+  margin: 1rem 0;                                                                                                                                                                                                                                          rem 0;
+}
+
+.ball {
+  width: 75%;
+}
+
+.bat {
+  width: 75%;
+}
+
+
+
+
+/* ///////// */
+
+.navbar {
+  /* display: none !important; */
+}
+
+/* .bgvideo {
+  height: unset !important;
+} */
+
+.desk {
+
+  flex-direction: column-reverse;
+  align-items: center !important;
+  text-align: center !important;
+  margin-top: 24%;
+}
+
+.dash {
+  margin: auto !important;
+}
+
+.ball img {
+
+  margin: 1rem 0;                                                                                                                                                                                                                                           rem 0;
+}
+
+.ball {
+  width: 75%;
+}
+
+.bat {
+  width: 75%;
+}
+
+
+
+.register-sgfi {
+  height: 140px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+.wrap.h1, h1 {
+  font-size: 1.2rem ;
+}
+.wrap.h3, h3 {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+.ratings .heading h1 {
+color: white;
+padding: 0 5%;
+padding-top: 7%;
+}
+.bigvideo{
+  height: 72%;
+}
+
+.register-sgfi h1 {
+  font-size: calc(1.375rem + 0.5vw);
+}
+
+.testimonials .introduction-boxes .box {
+  width: 100%;
+}
+.register-sgfi {
+height: 8rem;
+}
+.game-logos {
+/* display: flex; */
+flex-wrap: wrap;
+/* justify-content: space-evenly; */
+}
+.games-logo {
+height: 20%;
+width: 24%;
+margin: 1%;
+}
+.gif {
+width: 100%;
+height: 56%;
+position: absolute;
+}
+
+.footer_part {
+  margin: unset;
+  text-align: center;
+}
+.image_part.text-end {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 30px;
+}
+.boxing-images{
+  display: block;
+  height: 50%;
+  align-items: center;
+ 
+  
+}
+.boxing-images .box img {
+  border-radius: 1px;
+  height: 100%;
+  width: 100%;
+  margin: 10%;
+  border-radius: 10px;
+}
+
+
+}
+/* ******************* */
+/* @media screen and (min-width:768px) and (max-width:992px) {
+.desk {
+  align-items: center !important;
+}
+
+.ball {
+  width: 50%;
+}
+
+
+
+
+/* ///// */
+
+
